@@ -16,6 +16,7 @@
     <title>Welcome</title>
 
     <link href="${contextPath}/resources/css/bootstrap.min.css" rel="stylesheet">
+    <link href="${contextPath}/resources/css/common.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -30,9 +31,10 @@
         <form id="logoutForm" method="POST" action="${contextPath}/logout">
             <input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}"/>
         </form>
-
-        <h2>Welcome ${pageContext.request.userPrincipal.name} | <a onclick="document.forms['logoutForm'].submit()">Logout</a></h2>
-
+<div class="welcome-wp">
+        <h2>Welcome ${pageContext.request.userPrincipal.name}</h2>
+         <button class="btn btn-warning" onclick="document.forms['logoutForm'].submit()">Logout</button>
+</div>
     </c:if>
 
 </div>
