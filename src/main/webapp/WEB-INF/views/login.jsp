@@ -51,6 +51,11 @@
         <footer class="site-footer">
             <div class="container">
                 <p class="text-muted">INTEGRANTES</p>
+                <p class="text-muted">Alejandro Granada</p>
+                <p class="text-muted">Jose Fernando Navarro</p>
+                <p class="text-muted">Brayan Barrientos Pabuena</p>
+                <p class="text-muted">Jaime Jimenez Serrano</p>
+                <p class="text-muted">Manuel Alejandro Gomez Ortega</p>
             </div>
         </footer>
         <!-- /container -->
