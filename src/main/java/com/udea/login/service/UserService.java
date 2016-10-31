@@ -1,6 +1,6 @@
-package com.hellokoding.account.service;
+package com.udea.login.service;
 
-import com.hellokoding.account.model.User;
+import com.udea.login.model.User;
 
 public interface UserService {
     void save(User user);

@@ -1,8 +1,8 @@
-package com.hellokoding.account.service;
+package com.udea.login.service;
 
-import com.hellokoding.account.model.Role;
-import com.hellokoding.account.model.User;
-import com.hellokoding.account.repository.UserRepository;
+import com.udea.login.model.Role;
+import com.udea.login.model.User;
+import com.udea.login.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;

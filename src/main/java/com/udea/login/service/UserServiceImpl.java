@@ -1,8 +1,8 @@
-package com.hellokoding.account.service;
+package com.udea.login.service;
 
-import com.hellokoding.account.model.User;
-import com.hellokoding.account.repository.RoleRepository;
-import com.hellokoding.account.repository.UserRepository;
+import com.udea.login.model.User;
+import com.udea.login.repository.RoleRepository;
+import com.udea.login.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;

@@ -1,4 +1,4 @@
-package com.hellokoding.account.model;
+package com.udea.login.model;
 
 import javax.persistence.*;
 import java.util.Set;

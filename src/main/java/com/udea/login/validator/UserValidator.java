@@ -1,7 +1,7 @@
-package com.hellokoding.account.validator;
+package com.udea.login.validator;
 
-import com.hellokoding.account.model.User;
-import com.hellokoding.account.service.UserService;
+import com.udea.login.model.User;
+import com.udea.login.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.springframework.validation.Errors;
